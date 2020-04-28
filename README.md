@@ -1,5 +1,8 @@
 # SpringerLibros
-Script en python para descargar libros de Springer liberados durante pandemia
+Script en Python 3 para descargar libros de Springer liberados durante pandemia
+
+## Requisitos
+Python 3 debe estar instalado en el computador.
 
 ## Preparación
 Desde una consola:
@@ -18,3 +21,7 @@ python script_libros.py --doc_links links.txt --doc_format {DOC_FORMAT}
 
 `{DOC_FORMAT}` puede ser `pdf` o `epub`. El script tratará de descargar el documento en el formato elegido, y si no funciona,
 probará con el otro formato.
+
+# Observaciones
+
+Script no probado en Windows, sólo Linux.
