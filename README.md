@@ -22,6 +22,6 @@ python script_libros.py --doc_links links.txt --doc_format {DOC_FORMAT}
 `{DOC_FORMAT}` puede ser `pdf` o `epub`. El script tratará de descargar el documento en el formato elegido, y si no funciona,
 probará con el otro formato.
 
-# Observaciones
+## Observaciones
 
 Script no probado en Windows, sólo Linux.
