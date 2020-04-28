@@ -37,7 +37,7 @@ def download_pdf_from_link(link, doc_format):
     print("Link:", link)
     page = requests.get(link)
     soup = BeautifulSoup(page.content, 'html.parser')
-    title = get_title(soup)
+    title = get_title(soup).replace("/", "-")
     print("Title:", title)
 
     link, final_format = get_link(soup, doc_format)
