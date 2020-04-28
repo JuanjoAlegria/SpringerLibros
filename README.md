@@ -24,4 +24,5 @@ probará con el otro formato.
 
 ## Observaciones
 
-Script no probado en Windows, sólo Linux.
+1. Script no probado en Windows, sólo Linux.
+2. En el listado hay títulos que aparecen con más de una edición; en esos casos sólo se descargó la primera en aparecer en dicho listado.
